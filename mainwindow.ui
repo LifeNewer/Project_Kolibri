@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>581</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>File Modifier</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>130</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Входная директория</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputPathLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>130</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>160</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выходная директория</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="outputPathLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>160</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>190</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Маска входных файлов</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="fileMaskLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>220</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ключ (8 байт)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="keyLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>220</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="deleteInputCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>70</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить входной файл</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="overwriteRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>70</y>
+      <width>191</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Модификация имени файла</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="overwriteRadioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>100</y>
+      <width>191</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Перезапись выходного файла</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>250</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Периодичность опроса (мс)</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="timerIntervalSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>250</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>100</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Старт</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>581</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
